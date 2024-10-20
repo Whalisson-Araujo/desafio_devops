@@ -33,6 +33,7 @@ ec2_public_ip: Exibe o endereço IP público da instância EC2.
 Observações de Segurança
 Segurança no Grupo de Segurança (Ingress)
 
+Observações:
 Permitir acesso SSH de qualquer endereço (0.0.0.0/0 e ::/0) representa um risco de segurança elevado, pois qualquer pessoa com acesso à internet poderia tentar se conectar à instância.
 Sugestão: Restringir o acesso SSH a um IP ou faixa de IPs específicos, de preferência da rede do administrador.
 Chave Privada Sensível
